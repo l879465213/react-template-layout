@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* Metarial UI */
+.MuiDataGrid-selectedRowCount {
+  visibility: hidden!important;
+}
+.MuiDataGrid-root .MuiDataGrid-colCell:focus, .MuiDataGrid-root .MuiDataGrid-cell:focus {
+  outline: dotted;
+  outline-width: 0!important;
+  outline-offset: -2px;
+}
+.MuiDataGrid-colCellTitle {
+  display: block;
+  text-align:center;
+  width: 100%;
+}
+.MuiDataGrid-root .MuiDataGrid-footer{
+  display: none!important;
+}
+.MuiDataGrid-root .MuiDataGrid-row {
+  cursor: pointer;
+}
+.MuiDataGrid-root .MuiDataGrid-cellLeft{
+  text-align: center!important;
+}
+/* .MuiDataGrid-window {
+  overflow-x: hidden!important;
+} */
+.MuiInputBase-root {
+  width: 100%;
+}
+.MuiInputBase-input {
+  border: 1px solid #bcbcbc!important;
+  padding:8px!important;
+  margin-left: 10px!important
+}
+.MuiInputBase-multiline {
+  padding: 0!important;
+}
+
+
+.MuiInput-underline:before, .MuiInput-underline::after {
+  border-bottom: none!important;
+  transform: none!important;
+}
+.MuiFormControlLabel-root {
+  height: 40px!important;
+}
+.MuiFormControl-marginNormal {
+  margin-top:0px!important;
+  margin-bottom: 0px!important;
+}
+#date-picker-inline, #date-picker-inline2 {
+  margin-left: 0!important;
+}
+
+
+/* dob ragne slider */
+.MuiSlider-valueLabel {
+  left: calc(-50% - -4px)!important;
+}
+.MuiSlider-thumb {
+  width: 20px!important;
+  height: 20px!important;
+}
+.MuiSlider-track, .MuiSlider-rail {
+  height: 10px!important;
+}
+.MuiSlider-marked {
+  margin-bottom: 8px!important;
+}
+.MuiSlider-mark {
+  width: 0!important;
+}
+
+#memberDetail .MuiInputBase-input {
+  padding:5px!important;
+  margin-left: 0px!important;
+}
+#memberDetail .MuiFormGroup-root {
+  flex-direction: row!important;
+}
+#contentType .MuiFormGroup-root {
+  flex-direction: row!important;
+}
+
+#addEvent .MuiInputBase-input, #noticeDetail .MuiInputBase-input {
+  border: 1px solid #bcbcbc!important;
+  padding:5px!important;
+  margin-left: 10px!important;
+}
+#addEvent2 .MuiInputBase-input, #noticeDetail2 .MuiInputBase-input {
+  min-height: 180px;
+  border: 1px solid #bcbcbc!important;
+  padding:5px!important;
+  margin: 9px 10px!important;
+}
+
+#faqEvent2 .MuiInputBase-input {
+  min-height: 60px;
+  margin: 9px 10px!important;  
+}
+
+#loginColumn .MuiInputBase-input{
+  margin-left: 0!important;
+}
+
+.MuiGrid-item {
+  padding: 2px !important;
+}
